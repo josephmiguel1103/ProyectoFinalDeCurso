@@ -3,7 +3,7 @@ from reportlab.pdfgen import canvas
 from datetime import datetime
 from reportlab.lib.colors import HexColor
 from cliente import Persona, buscar_persona
-from cuenta import nueva_factura, agregarProducto
+from cuenta import nueva_factura
 w, h = A4
 c = canvas.Canvas("factura.pdf", pagesize=A4)
 
